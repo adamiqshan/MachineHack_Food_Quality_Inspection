@@ -1,1 +1,60 @@
-# MachineHack_Food_Quality_Inspection
+
+# Machine Hack Food Quality Inspection
+
+## Problem Statement:
+
+The food inspection department conducts regular inspection on food quality for various restaurants in the city. It?s a very well documented procedure and over time some good amount of data has been generated out of these inspections. The inspection department would like to predict where they should focus most in terms of their next inspection schedule, so that they can most optimize their time at hand to catch the worst offenders. Can the past inspection or any data that they have collected predict which facility will pass or fail.In this hackathon, MachineHack provides you with a subset of this dataset with information on food quality checks conducted on thousands of facilities that serve food across multiple cities. Your objective as a Data Scientist is to predict whether a facility will pass or fail the inspection based on a number of factors.
+
+## Features: 
+
+* ID: A unique id for each inspection
+
+* Date: The date at which the inspection was done in a particular facility
+
+* LicenseNo: De-identified license number for a particular facility
+
+* FacilityID: De-identified unique facility id  for a facility
+
+* FacilityName: The encoded name of a facility
+
+* Type: The type of the facility being inspected
+
+* Street: The encoded street where the facility is located
+
+* City: The encoded city where the facility is located
+
+* State: The encoded state where the facility is located
+
+* LocationID: An encoded location feature.
+
+* Reason: The primary reason for the inspection
+
+* SectionViolations: Laws violated by the facility
+
+* RiskLevel: The level of risk the facility possesses to the consumers.
+
+* Geo_Loc: De-identified geo location of the facility
+
+* Inspection_Results: The result of the inspection
+
+## Multiclass Labels:
+
+<li>0: FACILITY CHANGED </li>
+<li>1: FAIL </li>
+<li>2: FURTHER INSPECTION REQUIRED </li>
+<li>3: INSPECTION OVERRULED </li>
+<li>4: PASS </li>
+<li>5: PASS(CONDITIONAL) </li>
+<li>6: SHUT-DOWN </li>
+
+## Data Sets:
+
+* Data_Train.xlsx  - 147443 rows - 15 Features
+* Data_Test.xlsx - 49148 rows  14 Features
+* Sample_Submission.xlsx - 49148 rows - 7 Features
+
+## Dependencies:
+
+* NumPy
+* Pandas
+* SciKit-Learn
